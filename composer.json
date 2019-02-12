@@ -28,7 +28,8 @@
         "src/i18n/config/params.php"
       ],
       "common": [
-        "src/settings/config/common.php"
+        "src/settings/config/common.php",
+        "src/i18n/config/common.php"
       ], 
 	  "admin": [
 		"$common",
