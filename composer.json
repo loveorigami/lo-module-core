@@ -24,15 +24,15 @@
   "extra": {
     "config-plugin": {
       "params": [
-        "src/modules/core/config/params.php",
-        "src/modules/i18n/config/params.php"
+        "src/core/config/params.php",
+        "src/i18n/config/params.php"
       ],
       "admin": [
-        "src/modules/core/config/main.php",
-        "src/modules/main/config/main.php",
-        "src/modules/i18n/config/main.php",
-        "src/modules/permission/config/main.php",
-        "src/modules/settings/config/main.php"
+        "src/core/config/main.php",
+        "src/main/config/main.php",
+        "src/i18n/config/main.php",
+        "src/permission/config/main.php",
+        "src/settings/config/main.php"
       ]
     }
   },
