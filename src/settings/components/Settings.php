@@ -7,6 +7,7 @@ use yii\caching\Cache;
 use yii\helpers\ArrayHelper;
 use Yii;
 use lo\modules\core\settings\models\KeyStorageItem;
+use lo\core\interfaces\SettingsInterface;
 
 /**
  * Class Setings
