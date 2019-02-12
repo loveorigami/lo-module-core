@@ -1,6 +1,6 @@
 <?php
 
-namespace lo\modules\core\components;
+namespace lo\modules\core\settings\components;
 
 use yii\base\Component;
 use yii\caching\Cache;
