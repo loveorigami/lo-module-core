@@ -27,12 +27,19 @@
         "src/core/config/params.php",
         "src/i18n/config/params.php"
       ],
-      "admin": [
+      "common": [
+        "src/settings/config/common.php"
+      ], 
+	  "admin": [
+		"$common",
         "src/core/config/main.php",
         "src/main/config/main.php",
         "src/i18n/config/main.php",
         "src/permission/config/main.php",
         "src/settings/config/main.php"
+      ],
+	  "web": [
+        "$common"
       ]
     }
   },
