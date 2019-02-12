@@ -1,0 +1,44 @@
+{
+  "name": "loveorigami/lo-module-core",
+  "description": "Core modules for Lo-CMS",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "core",
+    "cms"
+  ],
+  "homepage": "https://github.com/loveorigami/lo-core",
+  "time": "2019-02-12",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Lukyanov",
+      "email": "loveorigami@mail.ru",
+      "homepage": "http://loveorigami.info",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.14"
+  },
+  "extra": {
+    "config-plugin": {
+      "params": [
+        "src/modules/core/config/params.php",
+        "src/modules/i18n/config/params.php"
+      ],
+      "admin": [
+        "src/modules/core/config/main.php",
+        "src/modules/main/config/main.php",
+        "src/modules/i18n/config/main.php",
+        "src/modules/permission/config/main.php",
+        "src/modules/settings/config/main.php"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "lo\\modules\\core\\": "src/"
+    }
+  }
+}
