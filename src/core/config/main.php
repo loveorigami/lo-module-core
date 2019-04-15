@@ -1,5 +1,7 @@
 <?php
 
+$params = require __DIR__ . '/params.php';
+
 return [
     'modules' => [
         'core' => [
@@ -33,5 +35,5 @@ return [
             ],
         ],
     ],
-	'params' => $params,
+    'params' => $params,
 ];

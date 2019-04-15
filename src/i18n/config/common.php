@@ -1,4 +1,5 @@
 <?php
+$params = require __DIR__ . '/params.php';
 
 return [
     'components' => [
@@ -17,10 +18,12 @@ return [
                     'cache' => 'cacheCommon',
                     'cachingDuration' => 3600,
                     'on missingTranslation' => [
-                        lo\modules\core\i18n\Module::class, 'missingTranslation'
-                    ]
+                        lo\modules\core\i18n\Module::class,
+                        'missingTranslation',
+                    ],
                 ],
             ],
         ],
     ],
+    'params' => $params,
 ];
